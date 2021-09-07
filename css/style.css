@@ -1,0 +1,31 @@
+/* Banner */
+
+.banner__travel-title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+}
+
+.banner__travel-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+    
+}
+
+.banner__img img {
+    width: 587px;
+    height: 554px;
+}
+option{
+    color: #4A4C53;;
+}
+.banner__travel-options select{
+    width: 170px;
+}
