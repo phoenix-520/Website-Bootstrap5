@@ -6,22 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website on Bootstrap 5</title>
+    <script src="https://kit.fontawesome.com/871559a4b3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="container">
-            <div
-                class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
                 <div class="col-md-3">
                     <img src="./src/logo.svg" alt="logo">
                 </div>
                 <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-                    <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+                    <li><a href="#destinations" class="nav-link px-2 link-dark">Features</a></li>
                     <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
                     <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
                     <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
@@ -39,7 +41,7 @@
                 <div class="banner__inner row">
                     <div class="col-6 banner__travel d-flex flex-column justify-content-around ">
                         <h1 class="banner__travel-title">Explore and Travel</h1>
-                        <span  class="banner__travel-subtitle">Holiday finder</span>
+                        <span class="banner__travel-subtitle">Holiday finder</span>
                         <div class="col-8 banner__travel-options d-flex flex-wrap justify-content-between ">
                             <select class="py-2 my-2 ps-4 pe-5" name="location">
                                 <option >Location</option>
@@ -66,6 +68,64 @@
                     </div>
                     <div class="col-6 banner__img">
                         <img src="./src/banner-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destinations">
+            <div class="container">
+                <div class="destinations-inner">
+                    <div class="destination-text">
+                        <h3 class="destination-title">Featured destinations</h3>
+                        <a class="dest-link" href="#">View all<i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                        <div class="col">
+                            <div class="card text-white dest-img">
+                                <img src="src/img1.png" class="card-img" alt="Raja Ampa">
+                                <div class="card-img-overlay">
+                                    <div class="dest-img-text">
+                                        <h5 class="card-title">Raja Ampat</h5>
+                                        <p class="card-text">Indonesia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-white dest-img">
+                                <img src="src/img2.png" class="card-img" alt="China">
+                                <div class="card-img-overlay">
+                                    <div class="dest-img-text">
+                                        <h5 class="card-title">Fan Jing Shan</h5>
+                                        <p class="card-text">China</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-white dest-img">
+                                <img src="src/img3.png" class="card-img" alt="Switzerland">
+                                <div class="card-img-overlay">
+                                    <div class="dest-img-text">
+                                        <h5 class="card-title">Vevey</h5>
+                                        <p class="card-text">Switzerland</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-white dest-img">
+                                <img src="src/img4.png" class="card-img" alt="Montenegro">
+                                <div class="card-img-overlay">
+                                    <div class="card-img-overlay">
+                                        <div class="dest-img-text">
+                                            <h5 class="card-title">Skadar</h5>
+                                            <p class="card-text">Montenegro</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
