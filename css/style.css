@@ -37,6 +37,46 @@ option {
 .banner__travel-options select {
     width: 170px;
 }
+/*Section-2 */
+ #inform{
+     margin-top: 150px;
+   
+ }
+.inform__img {
+    width: 45%;
+}
+.inform__inner {
+    display: flex;
+    /* margin-left: 40px; */
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+    
+}
+
+.inform__card {
+    margin: 105px;
+    border: 1px solid;
+    width: 35%;
+   
+}
+.card-title {
+font-family: 'Playfair Display', serif;
+font-weight: bold;
+font-size: 36px;
+margin-bottom: 30px;
+}
+.card-text {
+    font-family: 'Mulish', sans-serif;
+    color: #7D7987;
+    font-size: 17px;
+    margin-bottom: 50px;
+    
+}
+
+
 
 
 /* Section-3 Featured destination */
@@ -93,3 +133,4 @@ option {
 .card-text {
     color: grey;
 }
+
