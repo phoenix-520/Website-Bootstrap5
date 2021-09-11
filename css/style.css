@@ -149,12 +149,14 @@ margin-bottom: 30px;
     font-family: 'Mulish', sans-serif;
     font-weight: 300;
     line-height: 28px;
+    color: #848484
 }
 .footer__subtext {
     font-family: 'Mulish', sans-serif;
     font-size: 17px;
     font-weight: 300;
     line-height: 28px;
+    color: #848484
  
 }
 .footer__title {
@@ -162,6 +164,7 @@ margin-bottom: 30px;
     font-size: 19px;
     font-weight: 700;
     line-height: 60px;
+    
 }
 .index__footer {
     background: #F9F9FB;
