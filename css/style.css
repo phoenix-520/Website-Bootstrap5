@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
 a {
     color: inherit;
     text-decoration: none;
@@ -132,6 +135,49 @@ margin-bottom: 30px;
 
 .card-text {
     color: grey;
+}
+
+/* ===========
+  SECTION 6
+=========== */
+.story {
+    font-family: "Inter", sans-serif;
+}
+.story__img {
+    width: 220px;
+    height: 220px;  
+}
+.story__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+.story__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color:#7D7987;
+    height: 110px;
+}
+.story__link,
+.stories__link {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FB8F1D;
+}
+.story__link:hover,
+.stories__link:hover {
+    color: #ff8400;
+}
+.fa-chevron-right {
+    font-size: 13px;
+}
+.stories__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
 }
 
 
