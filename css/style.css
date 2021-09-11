@@ -1,3 +1,9 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
 /* Banner */
 
 .banner__travel-title {
@@ -16,16 +22,74 @@
     font-size: 22px;
     line-height: 27px;
     color: #202336;
-    
 }
 
 .banner__img img {
     width: 587px;
     height: 554px;
 }
-option{
-    color: #4A4C53;;
+
+option {
+    color: #4A4C53;
+    ;
 }
-.banner__travel-options select{
+
+.banner__travel-options select {
     width: 170px;
+}
+
+
+/* Section-3 Featured destination */
+
+#destinations {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.destinations-inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.destination-text {
+    padding-bottom: 5%;
+}
+
+.dest-link {
+    float: right;
+    margin-bottom: 50px;
+    color: #FB8F1D;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.fa-arrow-right {
+    padding-left: 10px;
+}
+
+.destination-title {
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-overlay {
+    padding: 0;
+}
+
+.dest-img-text {
+    background-color: #fff;
+    margin: 104.5% 30% 0% 0%;
+}
+
+.card-title {
+    font-family: 'Inter', sans-serif;
+    color: #000;
+}
+
+.card-text {
+    color: grey;
 }
