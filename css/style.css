@@ -47,6 +47,7 @@ option {
  }
 .inform__img {
     width: 45%;
+    height: 0%;
 }
 .inform__inner {
     display: flex;
