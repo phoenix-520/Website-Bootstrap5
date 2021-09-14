@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
-
 a {
     color: inherit;
     text-decoration: none;
@@ -40,53 +38,51 @@ option {
 .banner__travel-options select {
     width: 170px;
 }
+
+
 /*Section-2 */
- #inform{
-     margin-top: 150px;
-   
- }
+
+#inform {
+    margin-top: 120px;
+}
+
 .inform__img {
     width: 45%;
     height: 0%;
 }
+
 .inform__inner {
     display: flex;
     /* margin-left: 40px; */
     display: flex;
     justify-content: space-between;
-    
-   
-    
-    
 }
 
 .inform__card {
     margin: 105px;
     border: 1px solid;
     width: 35%;
-   
 }
-.card-title {
-font-family: 'Playfair Display', serif;
-font-weight: bold;
-font-size: 36px;
-margin-bottom: 30px;
+
+.inform-title {
+    font-family: 'Playfair Display', serif;
+    /* font-weight: bold; */
+    font-size: 30px;
+    margin-bottom: 30px;
 }
+
 .card-text {
     font-family: 'Mulish', sans-serif;
     color: #7D7987;
     font-size: 17px;
     margin-bottom: 50px;
-    
 }
-
-
 
 
 /* Section-3 Featured destination */
 
 #destinations {
-    margin-top: 15%;
+    margin-top: 5%;
     margin-bottom: 15%;
 }
 
@@ -132,34 +128,46 @@ margin-bottom: 30px;
 .card-title {
     font-family: 'Inter', sans-serif;
     color: #000;
+    font-size: 20px;
+    margin: 5px;
 }
 
 .card-text {
     color: grey;
 }
 
+
 /* ===========
   SECTION 6
 =========== */
+
+#stories {
+    margin-top: 90px;
+}
+
 .story {
     font-family: "Inter", sans-serif;
 }
+
 .story__img {
     width: 220px;
-    height: 220px;  
+    height: 220px;
 }
+
 .story__title {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
 }
+
 .story__text {
     font-weight: 400;
     font-size: 15px;
     line-height: 26px;
-    color:#7D7987;
+    color: #7D7987;
     height: 110px;
 }
+
 .story__link,
 .stories__link {
     font-weight: 600;
@@ -167,13 +175,16 @@ margin-bottom: 30px;
     line-height: 28px;
     color: #FB8F1D;
 }
+
 .story__link:hover,
 .stories__link:hover {
     color: #ff8400;
 }
+
 .fa-chevron-right {
     font-size: 13px;
 }
+
 .stories__title {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -186,33 +197,43 @@ margin-bottom: 30px;
   FOOTER
 =========== */
 
-
+footer {
+    margin: 0;
+}
 
 .footer {
     font-family: 'Mulish', sans-serif;
+    background: #f9f9fb;
 }
+
 .footer__suptext {
     font-size: 18px;
     font-family: 'Mulish', sans-serif;
     font-weight: 300;
     line-height: 28px;
-    color: #848484
+    color: #848484;
 }
+
 .footer__subtext {
     font-family: 'Mulish', sans-serif;
     font-size: 17px;
     font-weight: 300;
     line-height: 28px;
-    color: #848484
- 
+    color: #1ABE84;
+    transition: 1s;
 }
+
+.footer__subtext:hover {
+    font-size: 25px;
+}
+
 .footer__title {
     font-family: 'Mulish', sans-serif;
     font-size: 19px;
     font-weight: 700;
     line-height: 60px;
-    
 }
+
 .index__footer {
     background: #F9F9FB;
 }
@@ -222,14 +243,15 @@ margin-bottom: 30px;
     color: #000;
     padding: 0 10px;
 }
+
 .fab:hover {
     color: #1ABE84;
 }
+
 .footer__link {
     color: #848484;
-    ;
 }
+
 .footer__link:hover {
     color: #000;
 }
-
