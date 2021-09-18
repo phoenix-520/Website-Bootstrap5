@@ -135,6 +135,48 @@ option {
 .card-text {
     color: grey;
 }
+/* ===========
+  SECTION 5
+=========== */
+.m-margin {
+    margin-left: 20em;
+    position: absolute;
+    width: 20em;
+    display: inline-block;
+    font-size: 0.6cm;
+}
+
+.fa-star {
+    color: orange;
+    padding-bottom: 2em;
+    size: 10px;
+    
+}
+.h2 {
+   padding-top: 3em;
+   padding-bottom: 2em;
+
+}
+.mini-text {
+    max-width: 27em;
+    margin-bottom: 2em;
+}
+
+.sizen {
+    position: absolute;
+    display: inline-block;
+    margin-left: 70em;
+    margin-top: 160px;
+    width:300px;
+    height:480px;
+}
+.color-black {
+    color: black;
+}
+.w-100 {
+    width:300px;
+    height:480px;
+}
 
 
 /* ===========
